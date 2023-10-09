@@ -1,0 +1,489 @@
+
+tudo sobre a vaga {
+https://centralit.gupy.io/candidates/applications/356328180?cvUpdated=true
+https://centralit.gupy.io/jobs/5571979?jobBoardSource=gupy_opportunities   
+
+
+https://vagasv2.solides.com.br/perfilCandidate#vacancy
+https://remotar.com.br/job/26652/alugamais/programador-full-stack-2-front-end
+
+https://www.chumijobs.com/trabajo/desenvolvedor-web-junior-3/
+https://www.linkedin.com/jobs/view/3733957977/?refId=ByteString(length%3D16%2Cbytes%3D5daa5764...d156cfb8)&trackingId=fH7U4YmCVD%2FNarOR9l6lEw%3D%3D
+
+}
+
+https://www.linkedin.com/in/emanoel-timb%C3%B3-a90b62272/
+
+       Vaga de emprego (fui negado) pelo menos alguem me viu! e respondeu.
+https://vemserlampper.gupy.io/candidates/applications/352875631
+
+seleciona o q vc quer envelopar segura ctrl+ shit + p) e escolhe a opção
+ Emmet: Wrap with Abbreviation
+								9:28
+				https://www.youtube.com/watch?v=u9NE0jInb_c&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=42
+
+https://gustavoguanabara.github.io/
+
+ mundo 1
+exercício 003 fala sobre imagens 
+
+Unknow property: 'title'
+pasta 004 
+site para converter img em icones(favicon) para o navegador 
+https://favicon.io/favicon-converter/
+
+caminha no HTML para icones no navegador é 
+<link rel="shortcut icon" href="emoji.ico" type="image/x-icon" />
+
+
+pasta 005
+Hierarquia de titulos
+
+pasta 007 
+(negrito, itálico)
+
+pasta 008 (Formatações adicionais em HTML)
+Formataão de texto 
+(<del>, <ins>, <u>, <sup>, <sub>)
+
+pasta 009 (citações e códigos)
+
+A teg <code> melhora a letra fica mais legível
+A tag <pre> oraganiza o código com indentação na pagina web
+
+A tag <blockquete cite="https://www.pensador.com/frase/NDkxMzU3/"> <blocquete> serve para citação 
+de altor etc... o link não faz modificação alguma na pagina, porém serve para os mecanísmos de busca no google 
+quando alguém for pesquisar tal frase, sua página será exibida.
+
+A tag <abbr title="HyperTex Marup Languge"> HTML</abbr> tbm serve para os mecanismos de busca do google quando há uma pesquisa 
+sobre HTML, pois o seu nome oficial é (HyperTex Marup Languge). 
+<abbr title="Cascading Style Sheets">CSS</abbr> --> Aqui é a mesma coisa tag de cima com conceito do que é CSS no title.
+
+A tag <bdo dir="rtl"> Serve para colocar o texto invertido </bdo>
+
+pasta 010 (LISTAS) 
+
+A tag <ol> é para listas ordenadas.    OBS:Se quiser colocar início da lista q n seja o 1 é assam:<ol type="1" start="4">
+ex:   <li>Acordar</li>
+      <li>Ligar para João</li>
+      <li>Tomar café</li>
+      <li>Escovar os dentes</li>
+      </ol>
+A tag <ul> é para listas não ordenas 
+
+      <li>Pão</li>
+      <li>Leite</li>
+      <li>Arroz</li>
+      <li>Fejão</li>
+      </ul>
+
+pasta 011 (listas mistas e de deinição)
+
+pasta 012 (linkes externos)
+Para abrir outro site pelo link no meu site 
+ex: <a href="https://github.com/Emanoel029" target="_blank" rel="noopener"
+        >repositório do GitHub repositório do GitHub</a
+
+pasta 013 (linkes internos)
+
+ex:: <p>
+      Esta é a minha segunda pagina, se vc quiser pode acessar
+      <a href="index.html" rel="prev">primeira pagina</a>
+    </p>
+
+OBS: o 	rel="prev" serve para um mecanismo de busca do google rel="next" ->próxima pg 
+     visual mente eles não auteram em nada. más para o google é top.
+
+ex: <p>
+      Esta pagina é um oferencimento do
+      <a href="https://www.hostnet.com.br" target="_blank" rel="nofollow"
+        >Hostnet</a
+      >
+    </p>
+
+OBS: O rel="nofollow" serve quando vc nao quer que o mecanismo de busca encontre meu site.
+
+<p>Voltar para a <a href="../index.html">primeira pagina</a></p> OBS: O "../index.html" os dois pontos serve para voltar.
+    
+pasta 014 (Links para download)
+
+pasta 015 (Imagens Dinâmicas) Fazendo as img
+
+pasta 015 (Imagens que se adaptam sozinhas)
+A tag <picture> parece um img mas ela permite que vc crie varias fontes 
+
+pasta 015(Colocando áudio no seu site)
+
+<audio src="midia/audio.mp3" controls autoplay></audio>   ---> autopla(é para reproduzir automático)  controls(é o controle)
+
+OBS: Na tag audio <audio preload="metadata"> o parâmetro -> (preload=" ") tem 3 formas de ser passado
+primeira - auto --> só vai carregar a página quando o audio tbm for carregado! Não é legal isso
+segunda - metata --> Carrega ao poucos! Mais indicado.
+terceira - none --> Não vai carregar o audio.
+
+  Outra forma de reproduzir audio a baixo
+
+<audio preload="metadata" controls>
+      <source src="midia/audio.mp3" type="audio/mpeg" />   OBS:mp3 ogg wav são os formatos de arquivos!
+      <source src="midia/audio.ogg" type="audio/ogg" />
+      <source src="midia/audio.wav" type="audio/wav" />    OBS: Os arquivos wav são muitos pesado
+
+      <p>
+        Inelizmente seu audio não pode ser reproduzido
+        <a href="midia/audio.mp3"> clique aqui para baiar o arquivo mp3 </a>
+      </p>
+</audio>
+
+*pasta 016(Formatos de vídeo para seu site)
+
+Videos acima de 1080p nada de hospedar dentro do proprio site
+OBS:Quando a resolução e top sai muito caro e demora muito para carregar, isso sendo hopedado dentro do site.(Não é recomendado)
+
+pasta 016(Vídeos em hospedagem própria) continua 
+
+<video src="midia/vedeo-peq.ogv" width="500" controls></video>  
+
+   <video controls width="500" poster="imagens/peixes-capa.pnj>     ---->OBS: O metodo 'poster=""' serve para colocar uma capa no video antes 
+      <source src="midia/Vedeo-Pe.mp4" type="video/mp4" />		      de iniciar a reprodução.
+      <source src="midia/vedeo-pequ.m4v type="video/mp4 />
+      <source src="midia/Vedeo-P.webm" type="video/webm" />
+      <source src="midia/vedeo-peq.ogv" type="video/ogv" />
+      <p>Seu navegador não tem compatibilidade com a reproduão de vídeos</p>
+    </video>
+
+OBS: A ordem tem total influência na hora de carregar no navegador, sempre colocar o de menor tamanho p os de menor tamanho.
+
+Atenção: Vídeos hospedados dessa forma vão consumir muio trafego de dados
+
+
+Video 36 da play list (Incorporação de vídeos externos)
+
+*Adicionando vídeos com serviços de hospedagem de videos. Ex:(YouTube, Vimeo) O vimeo permite que o vídeo poça ficar disponível 
+para todos ou não 
+
+      
+video 38 (Estilos CSS inline) Primeiro sobre CSS 
+
+As CSS (folhas de estilo em cascata)
+
+video 39 (Estilos CSS internos)
+
+video 40 (Estilos CSS externos)  pasta 019
+
+OBS: No mesmo arquivo eu posso usar css interno, externo e inline. Atenção: Tem que evitar o INLINE.
+O ex tá na pasta 019
+
+
+----------------------------
+ Modulo 2 começa na pasta (20)
+
+ vagas 
+https://www.apinfo2.com/apinfo/inc/pesq9ai.cfm
+
+
+Desenvolvedor com conhecimento nas linguagens JavaScript,(CSS, HTML), Python, 
+Banco de dados PostgreSQL, ferramenta de versionamento Git, Scrun. Trabalhei 2 anos na TI da empresa Odonto System,
+
+Video 
+Harmonia de cores
+
+Cores primárias (Amarelo, Vermelho, Azul)
+Cores secundárias (Laranja, violeta, verde)
+Cores terciárias -> São misturas das cores primárias e terciárias
+
+
+ /*weight(peso), width(largura), height(altura)*/
+
+
+ pasta 021 (video) Peso, estilo e shorthand font - @Curso em Vídeo HTML5 e CSS3
+
+ Para condençar(shorthand) tem que ser nessa ordem.
+/*font-style -> font-weight -> font-size -> font-family*/
+
+Ex: 
+/*
+   font-family: "work Sams", sans-serif;
+   font-weight: bolder;
+   font-size: 3em;
+   font-style: italic;
+
+   font-style -> font-weight -> font-size -> font-family 
+*/
+   
+   font: italic bolder 3rem 'work Sams', sans-serif
+
+ pasta 022 (fontes do google) https://fonts.google.com/
+   arquivo-fonte01
+
+
+ pasta 022 (Usando fontes externas baixadas) - @Curso em Vídeo HTML5 e CSS3
+   arquivo-fonte02   OBS: outro site de fonte https://www.dafont.com/pt/theme.php?cat=801
+
+ex:
+@font-face {
+        font-family: "Love";
+        src: url("nakedchick.ttf") format(truetype);
+        /*
+        Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advenced Typography)
+        - svg
+        */
+      }
+
+  (Capturando as fontes usadas em um site)
+extensão (fonts ninja) no chorm
+extensão (WhatFont) no Edge
+
+   (Detectando fontes dentro de imagens)
+
+sites: (What font is.com), (font squirrel),  (myfonts.com).
+3 siste para detectar a fonte de uma imagem, porém nem sempre é possível e totalmente preciso.
+
+   (Alinhamento de textos com CSS)
+pasta 021 
+  arquivo teste.html
+
+   (Usando o id com CSS)
+pasta 023
+  arquivo seletor.html
+
+OBS: em HTML id. Já em CSS id é #  -> Só pode 1 elemento 
+     em HTML class em CSS class é (.) -> pode vários elementos class=" "
+
+   (As diferenças entre id e class) Aula top
+pasta 023
+  arquivo seletor.html
+
+OBS: Quando se tem dois elementos e quero aplicar a mesma configuração nesses dois 
+     usa-se class. Não se usa ID.
+Ex: <h2 class="basico">HTML básico</h2>
+
+    <h2 class="basico">CSS básico</h2>
+
+
+   (Pseudo-classes em CSS)    Atenção: Pseudo classes são palavras que definem estados de elementos dentro do HTML
+pasta024
+  arquivo pseudoclass.html
+  arquivo houver.html
+
+OBS: Pseudo código é representado pelos dois pontos (:)
+
+ex:
+   div:hover {
+         background-color: yellow;
+      }
+
+
+   (Pseudo-elementos em CSS)   Atenção: Pseudo elemento pode agir nas classes, elementos, ID. Eles mexem diretamente no conteúdo periférico do elemento.
+
+OBS: Pseudo elemento é representado pelos quatros pontos (::)
+
+ Geral sobre essas ultimas aulas 
+	Seletores personalizados
+
+Simbolos:  #  = id
+   	   .  = class
+	   :  = pseudo-class
+	  ::  = pseudo-elemento
+	   >  = clildren(filhos)
+
+
+  (Modelo de Caixas: primeiros passos) Teoria
+
+HTML CSS box model
+
+ altura= height
+ largura= width
+ linha q circula o conteúdo = border
+ preenchimento interno, da uma descolada = padding
+ preenchimento externo, da uma descolada = margin
+ contorno fora do elemento = outline
+
+OBS: Sempre que tiver uma caixa do tipo BOX-LEVEL sempre vai começar com uma linha inteira e pula para proxima linha antes de continuar o conteúdo.
+     Sempre que tiver uma caixa do tipo INLINE-LEVEL não quebra a linha, começa de onde parou e só ocupa o tamanho que precisar e continua o conteúdo do paragrafo.
+
+      (Grande)
+ Ex: Box-level: <div>, <h1>-<h6>, <p>, <main>, <header>, <nav>, <article>, <aside>, <footer>, <from>, <video>
+     
+     Inline-level: <span>, <a>, <code>, <small>, <strong>, <em>, <sup> - <sub>, <label>, <button>, <input>, <select>
+	(peno)
+
+  (Modelo de Caixas na prática (parte 1))
+pasta 025
+   arquivo caixa01.html
+
+user agent = Navegador
+
+   Modelo de Caixas na prática (parte 2)
+pasta 025
+    arquivo caixas.html  
+
+OBS: Todo elemento que vc quiser centralizado vai ter que uzar margin: auto;
+Ex: <style>
+	h1 {
+	  margin: auto; /*centraliza no meio*/
+	}
+
+    </style>
+
+
+ simpliicando com (shorthand): Tem que ser nessa ordem (topo,direi,baixo,esquerda) relojo.
+
+Ex:  <style>
+
+     h1{
+	/*
+	border-width: 10px;
+        border-style: solid;
+        border-color: darkgoldenrod;
+
+        OBS: A linha de baixo substitue todas essas linhas.
+        */
+        border: 10px solid darkgoldenrod;
+      }
+
+	/*
+        padding-top: 10px;    (topo)
+        padding-right: 10px;  (direita)  sempre nessa ordem topo,direi,baixo,esquerda
+        padding-bottom: 10px; (Baixo)
+        padding-left: 10px;   (esquerda)
+
+        OBS: A linha de baixo (shorthand) Substitue toda essas linhas de cima. E se
+        as 4 forem iguais besta colocar apenas uma vez 10px
+        */
+        padding: 10px;    	OBS: Quando colocar 2 valors ex: padding: 10px 20px. é preenchido em cima e em baixo com 10px e os lados com 20px
+       				     e se tem só um valor ele colocar para todos esse valor no (Box-level/caixa)
+
+
+	/*
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+            (shorthand) Substitue toda essas linhas de cima.
+        */			OBS: Os valores auto foram atribuidos para direita e esquerda para centralizar.
+
+        margin: 20px auto 40px auto;
+      }
+     </style>
+
+
+      (Grande)					       navegação artigo             roda-pé  
+ Ex: Box-level: <div>, <h1>-<h6>, <p>, <main>, <header>, <nav>, <article>, <aside>, <footer>, <from>, <video>
+     
+     Inline-level: <span>, <a>, <code>, <small>, <strong>, <em>, <sup> - <sub>, <label>, <button>, <input>, <select>
+	(peno)
+
+
+   (Grouping Tags em HTML5)  Aula top
+pasta 025 
+    arquivo caixa02.html
+ 
+<body>           OBS: Todos são divs o esqueleto do site é esse para facilitar os mecanismos de busca e o navegador valoriza esse esquema.
+  <header>  -> Cabeçalho
+
+  </header>
+  <main>    -> Corpo principal
+
+  </main>
+  <footer>  -> Roda pé
+    
+  </footer>
+  
+</body>
+ 
+
+    (Sombra nas Caixas)
+pasta 025
+  arquivo caixa02.html
+
+ box-shadow: 1px 1px 1px black; /*sombra*/
+ border-radius: 20px; /*Raio da borda arredondamento*/
+
+
+    (Caixas com vértices arredondados)
+pasta 025
+  arquivo caixa02.html
+
+    (Bordas decoradas)
+pasta 025
+   arquivo caixa03.html
+
+
+    (DESAFIO do Módulo 2 ) Esse é difícil
+ 
+Site para desenhar o esboço do projeto.
+ https://mockflow.com/
+
+<body>			Esqueleto do site.
+  <header>
+
+  </header>
+  <nav>
+
+  </nav>
+
+  <main>
+      <article>
+	 <aside>
+         
+         </aside>
+       </article>
+   </main>
+   <footer>
+
+   </footer>
+</body>
+
+
+
+  (Tornando um vídeo responsivo) nesse vídeo ele ensina a centralizar e deixar responsivo
+    vídeo 42 da plyliste Curso em Vídeo HTML5 e CSS3 modulo 2 de 5.
+
+1ª coisa: Envelopar o <iframe> em uma div
+
+
+--------Módulo 03 de HTML5 e CSS-----------
+
+  https://www.youtube.com/watch?v=P0Hvrf8T3zo&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&index=5
+
+
+
+https://remotar.com.br/job/26698/it-talent/desenvolvedor-web-junior
+
+
+
+
+
+
+
+Aplicar minha formação no desenvolvimento de soluções críticas. Aprimorar minhas noções de liderança e trabalho em equipe projetando uma futura posição gerencial, desenvolver minha carreira sobre a supervisão e estímulo de uma empresa comprometida com a inovação. 
+Gostaria de uma oportunidade de mostrar minha habilidades e também aprender, disposto a me abdicar do tempo para aumentar meus conhecimentos. Sou um desenvolvedor de sistemas com conhecimento nas linguagens Python e JavaScript, SQL Server. Proativo e mantendo atualizados nos estudando. Eu quero a vaga porque gosto da cultura voltada à inovação. A empresa parece valorizar o empenho, investindo nos colaboradores.
+
+
+
+
+Para que serve o styled componen -> serve para eu poder criar um componente apartir de um elemento de stylo,
+ assim evita ficar criando um monte dentro do React
+
+OBS: Aplicativo pwa é isso ele vai funcionando a medida q ele tem disposição do haduware para funcionar 
+
+esse proeto C:\Users\Emanoel\Documents\projeto\s-book-webapp-dev
+
+21:47 no vídeo 
+
+
+
+
+
+
+
+
+
+
+
+
+
