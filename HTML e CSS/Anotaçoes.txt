@@ -497,16 +497,8 @@ height: 100vh;
    (Imagens com efeito Parallax simples) 
      Paprimoramento > HTML > desafio cordel > index.html
 
-
-
-
-Sriracha
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-font-family: 'Sriracha', cursive;
-
-Passion One  
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
-font-family: 'Passion One', sans-serif;
+        text-align: center; /*Alinha os dados horizontal no centro*/
+        vertical-align: top; /*Alinhamento dos dados vertical no top*/
 
 
 

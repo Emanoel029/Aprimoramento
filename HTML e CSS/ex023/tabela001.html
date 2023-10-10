@@ -11,20 +11,19 @@
 
       table {
         width: 400px;
+        height: 400px;
         border-collapse: collapse;
-      }
-
-      tr.linha {
-        background-color: cadetblue;
-      }
-
-      td.dado {
-        background-color: yellow;
       }
 
       td {
         border: 1px solid black;
         padding: 8px;
+        text-align: center; /*Alinhamento dos dados da célula horioltal*/
+        vertical-align: middle; /*Alinhamento dos dados da célula vertical, middle =centro*/
+      }
+
+      .numero {
+        text-align: right;
       }
     </style>
   </head>
@@ -47,13 +46,13 @@
         <td>A2</td>
         <td>B2</td>
         <!--Dado-->
-        <td>C2</td>
+        <td class="numero">C2</td>
       </tr>
       <tr>
         <!--TERCEIRA LINHA-->
         <td>A3</td>
         <td>B3</td>
-        <td>C3</td>
+        <td class="numero">C3</td>
       </tr>
       <tr>
         <!--QUARTA LINHA-->
