@@ -19,9 +19,15 @@ https://vemserlampper.gupy.io/candidates/applications/352875631
 
 seleciona o q vc quer envelopar segura ctrl+ shit + p) e escolhe a opção
  Emmet: Wrap with Abbreviation
-								9:28
-				https://www.youtube.com/watch?v=u9NE0jInb_c&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=42
+								8:13
+				https://www.youtube.com/watch?v=PzJwwA6LVts&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&index=17
+https://www.qr-code-generator.com
 
+ rede social do github
+https://github.com/explore
+
+https://emanoel029.github.io/projeto-android/
+https://emanoel029.github.io/aprimoramento/HTML%20e%20CSS/ex022/fundo006.html
 https://gustavoguanabara.github.io/
 
  mundo 1
@@ -448,14 +454,58 @@ Site para desenhar o esboço do projeto.
 
 --------Módulo 03 de HTML5 e CSS-----------
 
-  https://www.youtube.com/watch?v=P0Hvrf8T3zo&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&index=5
+  https://www.youtube.com/watch?v=ejQwG2cvWxg&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&index=8
+
+
+ (background-attachment e shorthand) 
+Paprimoramento > HTML > ex022 > arquivo fundo006.html 
+
+OBS: Shorthand - backgroun (nessa ordem)
+     color - image - position - repeat - size - attschment
+
+height: 100vh;
+	/*
+
+        background-color: black;
+        background-image: url("imagens/wallpaper002.jpg");
+        background-position: center center; /*Alinhada no centro*/
+        background-repeat: no-repeat; /*Para a img n se repetir*/
+        background-size: cover;
+        background-attachment: fixed; /*fix a img no fundo*/
+
+	*/
+
+        /*Shorthand - backgroun (nessa ordem)
+           color - image - position - repeat - size - attschment
+	
+	OBS: O size não funciona no shorthand tem que fazer dessa forma.
+        */
+ 		Shorthand - backgroun
+        background: black url("imagens/wallpaper002.jpg") center center
+          no-repeat fixed;
+        background-size: cover;
+
+
+   (Centralização vertical de caixas)
+ Paprimoramento > HTML > ex022 > arquivo fundo007.html 
+
+   (Um projeto completo usando HTML e CSS
+
+
+
+
+
+
+
 
 
 
 https://remotar.com.br/job/26698/it-talent/desenvolvedor-web-junior
 
 
+GitHub Pages
 
+GitHub pages is currently disabled. Select a source
 
 
 
