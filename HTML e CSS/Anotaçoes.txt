@@ -489,12 +489,20 @@ height: 100vh;
    (Centralização vertical de caixas)
  Paprimoramento > HTML > ex022 > arquivo fundo007.html 
 
-   (Um projeto completo usando HTML e CSS
+   (Um projeto completo usando HTML e CSS)
+
+   (Colocando as fontes ao projeto)
 
 
 
 
+Sriracha
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+font-family: 'Passion One', sans-serif;
 
+Passion One  
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+font-family: 'Passion One', sans-serif;
 
 
 

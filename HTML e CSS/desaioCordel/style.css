@@ -1,13 +1,26 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+:root { /*Declarando variáveis*/
+  --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte2: 'Passion One', sans-serif;
+  --fonte3: 'Sriracha', cursive;
+}
+
+
 * {
   margin: 0px;
   padding: 0p;
+  font-size: 1em;
 }
 
-html body {
+html, body {
   min-height: 100vh; /*100% da viu port height(altura)*/
   background-color: darkgray;
+  font-family: var(--fonte1);
 }
 
 header{
@@ -20,6 +33,8 @@ header > h1 {
   padding-top: 50px;
   /*text-transform: uppercase; Todas as letras maiúsculas*/
   font-variant: small-caps; /*Todas as letras maiúsculas de ferente da de cima*/
+  font-family: var(--fonte2);
+  font-size: 10vw;
 
 }
 /*cabeçalho*/
@@ -41,6 +56,8 @@ section { /*Em todas as section*/
   padding-bottom: 10%; /*espaço de 10p para baixo*/
   line-height: 2em; /*Espaçamento entre as frases*/
   padding-left: 30px; /*Afastamento da margin esquerda*/
+  font-family: var(--fonte3);
+  font-size: 3vw;
 }
 
 section.normal {
@@ -54,8 +71,9 @@ section.imagem {
 }
 
 section.imagem > p {  /*Criada para não confundir as letra com img*/
-  width: 400px;
+  display: inline-block;
   background-color: rgba(0, 0, 0, 0.177);
+  padding: 5px;
 }
 
 footer {
