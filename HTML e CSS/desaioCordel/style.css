@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0p;
+}
+
+html body {
+  min-height: 100vh; /*100% da viu port height(altura)*/
+  background-color: darkgray;
+}
+
+header{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+header > h1 {
+  padding-top: 50px;
+  /*text-transform: uppercase; Todas as letras maiúsculas*/
+  font-variant: small-caps; /*Todas as letras maiúsculas de ferente da de cima*/
+
+}
+/*cabeçalho*/
+header > p {
+  padding-bottom: 50px;
+}
+header a, footer a {
+  color: white;
+  text-decoration: none; /*tirando o sublinhado*/
+  font-weight: bolder; /* negrito*/
+}
+
+header a:hover, footer a:footer {
+  text-decoration: underline;
+}
+
+section { /*Em todas as section*/
+  padding-top: 10%; /*espaço de 10p para cima*/
+  padding-bottom: 10%; /*espaço de 10p para baixo*/
+  line-height: 2em; /*Espaçamento entre as frases*/
+  padding-left: 30px; /*Afastamento da margin esquerda*/
+}
+
+section.normal {
+  background-color: white;
+  color: black;
+}
+
+section.imagem {
+  background-color: rgb(68, 66, 66);
+  color: white;
+}
+
+section.imagem > p {  /*Criada para não confundir as letra com img*/
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.177);
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
