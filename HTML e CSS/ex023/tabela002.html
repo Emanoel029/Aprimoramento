@@ -8,6 +8,12 @@
       body {
         font-family: Arial, Helvetica, sans-serif;
       }
+      caption {
+        font-size: 1.5em;
+        font-weight: bold; /*Negrito*/
+        padding: 10px; /*Engrodada*/
+        background-color: lightblue;
+      }
       table {
         width: 500px;
         border-collapse: collapse; /*Tira as brodinhas*/
@@ -20,6 +26,12 @@
         border: 1px solid black;
         padding: 10px;
       }
+
+      /*Diminuindo a largura da coluna população*/
+      th.popula {
+        width: 50px;
+      }
+
       thead,
       tfoot {
         background-color: cadetblue;
@@ -32,6 +44,7 @@
     <!--
       ANATOMIA PARA TABELAS GRANDES
       <TABLE>
+          CAPTION  (como se fosse um paragrafo)
           THEAD
             <tr><td><th>
           TBOOY
@@ -41,11 +54,14 @@
     -->
 
     <table>
+      <caption>
+        População das unidades federativas
+      </caption>
       <thead>
         <!--Cabeçalho-->
         <tr>
-          <th>Estado</th>
-          <th>População</th>
+          <th scope="col">Estado</th>
+          <th scope="col" class="popula">População</th>
         </tr>
       </thead>
       <tbody>
@@ -113,7 +129,7 @@
       </tbody>
       <tfoot>
         <tr>
-          <th>Total de habitantes</th>
+          <th scope="row">Total de habitantes</th>
           <td class="num"><strong>210.147.125</strong></td>
         </tr>
       </tfoot>
