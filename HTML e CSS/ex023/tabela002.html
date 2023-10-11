@@ -14,9 +14,11 @@
         padding: 10px; /*Engrodada*/
         background-color: lightblue;
       }
+
       table {
         width: 500px;
         border-collapse: collapse; /*Tira as brodinhas*/
+        position: relative;
       }
       .num {
         text-align: right;
@@ -31,11 +33,21 @@
       th.popula {
         width: 50px;
       }
+      /*Efeitozebrado*/
+      tbody > tr:nth-child(2n) {
+        background-color: bisque;
+      }
 
       thead,
       tfoot {
         background-color: cadetblue;
         color: white;
+      }
+      /*Fixando o cabeçalho OBS: em table tem q está funcionar position: relative;*/
+      thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: cadetblue;
       }
     </style>
   </head>
