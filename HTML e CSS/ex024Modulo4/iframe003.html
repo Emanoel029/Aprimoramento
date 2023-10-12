@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uso de ifrae</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      iframe#tela {
+        width: 95vw;
+        height: 400px;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Faça um escolha</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit dignissimos
+      ab, cupiditate fugit deleniti quisquam nisi corrupti necessitatibus odio
+      laboriosam aut voluptates facilis modi quas debitis tempora fuga eligendi
+      nihil?
+    </p>
+
+    <ul>
+      <!--target é para carregar a pagina dentro no iframa-->
+      <li><a href="pg-extras/pagina001.html" target="frame">Primeira pg</a></li>
+      <li><a href="pg-extras/pagina002.html" target="frame">Segunda pg</a></li>
+      <li><a href="pg-extras/pagina003.html" target="frame">Terceira pg</a></li>
+    </ul>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque
+      ullam tempora inventore quidem vitae repellat illum ipsum. Aut
+      necessitatibus quaerat in atque maiores laborum assumenda corporis ea
+      soluta architecto. Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Modi repellendus architecto culpa quos eligendi inventore vero cum
+      natus expedita illum, saepe praesentium obcaecati ea esse aliquid
+      temporibus itaque blanditiis veritatis!
+    </p>
+    <!--o 'src' é p a pg á iniciar com conteúdo no iframe-->
+    <iframe
+      id="tela"
+      name="frame"
+      srcdoc="<h1>Esclha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo assumenda praesentium aspernatur molestiae! Explicabo, distinctio earum eius ad excepturi, vero exercitationem pariatur et deserunt nihil temporibus itaque doloremque a architecto?</p><img src='img/teste.png'>"
+    >
+      <p>Infelizmente seu navegador nao é compatível</p>
+    </iframe>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+      delectus nisi, ratione dignissimos nemo, magni eius saepe numquam nostrum
+      molestiae velit quo dolore, repellat voluptatum? Rerum dolorem fugit dicta
+      architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Debitis, nostrum laudantium similique distinctio asperiores animi,
+      sapiente, dolor molestias alias vero reiciendis! Cupiditate velit dolorum
+      quos exercitationem iste architecto, nobis modi.
+    </p>
+  </body>
+</html>
