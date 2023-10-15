@@ -20,7 +20,7 @@ https://vemserlampper.gupy.io/candidates/applications/352875631
 seleciona o q vc quer envelopar segura ctrl+ shit + p) e escolhe a opção
  Emmet: Wrap with Abbreviation
 								8:13
-				https://www.youtube.com/watch?v=MqdSffM1HZc&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT&index=18
+				https://www.youtube.com/watch?v=7P22zubU6i8&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT&index=21
 https://www.qr-code-generator.com
 
  rede social do github
@@ -525,6 +525,33 @@ height: 100vh;
           TFOOT
             <tr><td><th>
     -->
+-------------------------
+
+  (Métodos GET e POST para formulários)
+
+ Get = Quando envia dados por GET só pode ser envidado até 3.000,00 byts ou situação é se vc for usar campus sensíveis como 
+       senhas, envios de fotos ou qualquer outro tipo de arquivo.
+ 
+ POST= Quando usar, dados sensíveis não apareça na URL e o contário de GET
+
+HTTPS: para proteger dados
+
+
+  (Criando caixas de texto e de senha)
+
+
+    <label for="iusu">Usuário:</label> 
+    <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="10"/>
+
+OBS: required -> Obriga ao usuário digitar os campos do inpute
+     minlength -> O nome do usuário deve ter no mínimo 5 letras
+     maxlength -> O nome do usuário deve ter n maximo 15 letras
+     size="10" -> O tamanho da caixo do input
+
+
+
+
+
 
 
 
