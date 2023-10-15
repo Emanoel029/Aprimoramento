@@ -20,11 +20,16 @@ https://vemserlampper.gupy.io/candidates/applications/352875631
 seleciona o q vc quer envelopar segura ctrl+ shit + p) e escolhe a opção
  Emmet: Wrap with Abbreviation
 								8:13
-				https://www.youtube.com/watch?v=ZnjU3PzhGi0&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&index=30
+				https://www.youtube.com/watch?v=z30JMe5Cufs&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT&index=16
 https://www.qr-code-generator.com
 
  rede social do github
 https://github.com/explore
+
+(Personalizando as imagens do projeto)
+https://www.youtube.com/watch?v=z30JMe5Cufs&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT&index=16
+
+https://emanoel029.github.io//projeto-social/index.html
 
 https://emanoel029.github.io/projeto-android/
 https://emanoel029.github.io/projeto-cordel/
