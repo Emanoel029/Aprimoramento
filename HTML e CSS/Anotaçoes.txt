@@ -663,6 +663,97 @@ OBS: Campo para escrever msg
 Atenção: Quando usar esse 'textarea' o Method="post" no <form> tem que está post pois ele aceitas mais de 3.000,00 caracteres.
 
 
+   (Elemento output em formulários HTML)
+	 aprimoramento > aprimoramento HTML e CSS > ex025 > form008.html
+
+
+  <p>
+        <label for="in1">Numero 1</label>
+        <input
+          type="number"   
+          name="n1"
+          id="in1"
+          min="0"
+          max="50"
+          required
+          oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)"  --> um pouco de programação 
+        />
+      </p>
+
+  <p>
+        <label for="in2">Numero 2</label>
+        <input
+          type="number"
+          name="n2"
+          id="in2"
+          min="0"
+          max="50"
+          required
+          oninput="isoma.innerHTML = Number(in2.value) + Number(in2.value)"  --> um pouco de programação 
+        />
+      </p>
+
+
+  <p>
+        <label for="isoma">Soma</label>
+        <output name="soma" id="isoma">0</output>   -->OUTPUT serve APENAS PARA MOSTRAR O VALOR DA SOMA NA TELA ele não envia a soma no <form>
+  </p>
+
+-------- TOP  esse exemplo está no arquivo ex025 > form009.html
+
+
+<p>
+        <label for="inum">Número</label>
+        <input
+          type="range"      ---> O Flag que pux
+          name="numero"
+          id="inum"
+          min="0"
+          max="10"
+          value="5"
+          oninput="ival.innerHTML = Number(inum.value)"   -->Programação para ligar o output com a flag
+        />
+        <output id="ival">5</output>    --->Para mostar o valor a frente do flag
+ </p>
+
+
+----- Esse exemplo está no arquivo ex025 > form010.html
+
+ <form action="cadastro.php" method="get" autocomplete="on">
+      <p>
+        <label for="iano">Em que ano vc nasceu:</label>
+        <input
+          type="number"
+          name="ano"
+          id="iano"
+          min="1900"
+          max="2024"
+          oninput="calcIdade()"
+        />
+      </p>
+
+      <p>
+        <label for="iidade">Sua idade é: </label>
+        <output id="iidade">0</output>
+      </p>
+
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
+    </form>
+
+    <script>
+      function calcIdade() {
+        let atual = new Date().getFullYear();
+        iidade.innerHTML = Number(atual) - Number(iano.value);
+      }
+    </script>
+
+
+  (O que são Media Queries em CSS)
+
+OBS: Media Querie é uma versão inchuta do site para impressão, com modificações adequadas.
 
 
 
