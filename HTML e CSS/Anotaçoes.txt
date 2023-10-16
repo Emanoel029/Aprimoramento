@@ -802,6 +802,9 @@ Atenção: Quando eu uso media, posso usar media types e media features (Ex: a c
                    media type       media features
 
 
+  (Seguindo a orientação do dispositivo)
+     aprimoramento > aprimoramento HTML e CSS > ex026 > mq002 > index.html
+
 
 
 
