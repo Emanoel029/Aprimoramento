@@ -621,6 +621,50 @@ OBS: O value ="1" é para começar do 1
 OBS: Quando usar esse input 'file' o Method="post" tem que ser post no form EX: <form action="cadastro.php" method="post">
 
 
+  (Select, datalist e textarea em HTML)
+     aprimoramento > aprimoramento HTML e CSS > ex025 > form007.html
+
+     <label for="iestado">Estados</label>
+        <select name="estado" id="iestado" title="oi">
+
+          <optgroup label="Região Nordeste">
+            <option value="CE">Fortaleza</option>
+            <option value="MA">Maranhão</option>
+            <option value="PE">Pernambuco</option>
+          </optgroup>
+
+	  <optgroup label="Região Suldeste">
+             <option value="MG">Minas Gerais</option>
+             <option value="RJ">Rio de Janeiro</option>
+	  </optgroup>
+
+	</select>
+
+
+OBS: Lista dentro do input ex:form005.html
+
+        <label for="iprof">Profissão</label>
+        <input type="text" name="prof" id="iprof" list="ilstpro" />
+        <datalist id="ilstpro">
+          <option value="ADM">Adiministrador</option>
+          <option value="CONT">Contador</option>
+          <option value="Eng">Engenheiro</option>
+          <option value="DEV">Desenvolvedor</option>
+        </datalist>
+
+
+OBS: Campo para escrever msg 
+
+   <p>
+        <label for="imsn">Mensagem</label><br />
+        <textarea name="msn" id="imsn" cols="30" rows="10"></textarea>
+   </p>
+
+Atenção: Quando usar esse 'textarea' o Method="post" no <form> tem que está post pois ele aceitas mais de 3.000,00 caracteres.
+
+
+
+
 
 
 
