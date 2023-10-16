@@ -780,7 +780,7 @@ OBS: Media Querie é uma versão inchuta do site para impressão, com modificaç
 
 
  (Múltiplas Media Features com CSS)
-
+     aprimoramento > aprimoramento HTML e CSS > ex026 > mq002 > index.html
 
  Media Query é a mesma coisa que MEDIA TYPES + media Features
 
@@ -788,6 +788,18 @@ media Features(é caracteristica de media)
 media Type (é tipo de mídia)
 
 
+  <link rel="stylesheet" href="estio/style.css" media="all" />  OBS: O media='all' signiica que o estilo vai ser para todos os dispositivos
+
+
+  <link rel="stylesheet" href="estilos/style.css" media="all" />
+    <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)"/>  --> Todas as telas que estejão em modo retrato
+    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientaion: landscape)" />  --> tadas as telas que estajam em modo peisagem.
+
+
+Atenção: Quando eu uso media, posso usar media types e media features (Ex: a cima, exxplicação em baixo)
+
+         Ex: media="screen and (orientation: portrait)"/>
+                   media type       media features
 
 
 
