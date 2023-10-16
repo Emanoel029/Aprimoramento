@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*Estilo para telas*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+header {
+  background-color: cadetblue;
+
+}
+header > h1 {
+  text-align: center; /*Centraliza o h1*/
+}
+
+menu{
+  list-style-type: none; /*Esconde a bolinha do menu*/
+  background-color: brown;
+}
+
+menu li {
+  background-color: rgba(0, 0, 0, 0.434);
+  color: white;
+  display: inline-block; /*Menu um do lado do outro*/
+  padding: 10px; /*Fica maior*/
+}
+
+article {
+  width: 600px; /*Largura do artigo*/
+  display: block; /*A combinação do diplay e margi centraliza o texto*/
+  margin: auto;
+}

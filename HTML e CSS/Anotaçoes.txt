@@ -754,8 +754,38 @@ Atenção: Quando usar esse 'textarea' o Method="post" no <form> tem que está p
   (O que são Media Queries em CSS)
 
 OBS: Media Querie é uma versão inchuta do site para impressão, com modificações adequadas.
+     Ou roupagem para impressão.15:10 16/10/2023
 
 
+ (Criando um site com versão para impressora)
+   aprimoramento > aprimoramento HTML e CSS > ex026 > mq001 > index.html
+
+<body>
+  <header>
+    <menu>
+      
+    </menu>
+  </header>
+  <main>
+    <article>
+      
+    </article>
+  </main>
+</body>
+
+  ATENÇÂO: Chamadas de MEDIAS QUERYs exemplo a baixo.
+
+    <link rel="stylesheet" href="estilos/tela.css" media="screen" />
+    <link rel="stylesheet" href="estilos/impressora.css" media="print" />
+
+
+ (Múltiplas Media Features com CSS)
+
+
+ Media Query é a mesma coisa que MEDIA TYPES + media Features
+
+media Features(é caracteristica de media)
+media Type (é tipo de mídia)
 
 
 

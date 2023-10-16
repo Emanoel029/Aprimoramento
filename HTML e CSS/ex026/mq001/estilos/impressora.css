@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*Estilo para impressão*/
+
+*{
+  margin: 10px;
+  padding: 10px;
+}
+
+html {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em; /*tamanho da fonte*/
+  line-height: 1.5em; /*Espaçamento entre linhas*/
+}
+
+menu {
+  display: none; /*Nao vai mostrar o menu quando imprimir*/
+}
+
+article {
+  width: 100%; /*vai ter a 100% da impressão no papel*/
+}
+
+article::after{
+  content: 'Este artigo foi impresso atravez do site para estudos www.estudos.com';
+}
