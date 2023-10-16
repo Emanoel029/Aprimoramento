@@ -531,6 +531,10 @@ height: 100vh;
             <tr><td><th>
     -->
 -------------------------
+  
+
+	ATENÇÃO: SEMPRE TESTAR EM NAVEGADORES POIS TEM UMA DIERENÇA ENTRE ELES NO COMPORTAMENTO DOS FORM 
+
 
   (Métodos GET e POST para formulários)
 
@@ -601,6 +605,26 @@ OBS: Para 'radio' o (name) tem que ser o mesmo, pq quando o usuário marcar um o
 
   (Elementos color, range e file em HTML)
     aprimoramento > aprimoramento HTML e CSS > ex025 > form005.html
+
+  <label for="icor">Cor</label>
+  <input type="color" name="cor" id="icor" />
+
+  <label for="inivel">Nível de satisfação</label>
+  <input type="range" name="nivel" id="inivel" min="1" max="5" value="1"/>
+
+OBS: O value ="1" é para começar do 1 
+
+
+  <label for="ifoto">Foto</label>
+  <input type="file" name="foto" id="ifoto" />
+
+OBS: Quando usar esse input 'file' o Method="post" tem que ser post no form EX: <form action="cadastro.php" method="post">
+
+
+
+
+
+
 
 
 
