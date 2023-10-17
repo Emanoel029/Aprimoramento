@@ -813,6 +813,9 @@ Atenção: Quando eu uso media, posso usar media types e media features (Ex: a c
   (Mobile First) -> primeiro o movel
 
 
+  (Iniciando um site mobile first)
+	aprimoramento > aprimoramento HTML e CSS > ex026 > mq004 > index.html
+
 
 
 
