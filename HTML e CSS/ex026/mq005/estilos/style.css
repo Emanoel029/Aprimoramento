@@ -19,8 +19,22 @@ header > h1 {
   text-align: center;
 }
 
-menu{
+i#hamburg {
+  background-color: rgb(76, 76, 76);
+  color: white;
   display: block;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer; /*quando o mouse passa vira uma mãozinha*/
+}
+
+i#hamburg:hover{
+  background-color: white;
+  color: black;
+}
+
+menu{
+  display: none; /*Esconde as opções do menu*/
 }
 
 menu > ul {
