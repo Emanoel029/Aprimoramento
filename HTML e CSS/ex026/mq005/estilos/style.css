@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px; /*tira os espaçamentos*/
+  padding: 0px;
+}
+
+body, html {
+  background-color: lightgray;
+}
+
+header {
+  background-color: rgb(123, 121, 121);
+}
+
+header > h1 {
+  padding: 10px;
+  text-align: center;
+}
+
+menu{
+  display: block;
+}
+
+menu > ul {
+  list-style-type: none; /*tiraas bolinha*/
+}
+
+menu > ul > li > a {
+  display: block;
+  padding: 10px;
+  text-decoration: none; /*tira o sublinado do link*/
+  text-align: center;
+  background-color: rgb(103, 102, 102);
+  color: white;
+  border-top: 2px solid gray;
+}
+
+menu > ul > li > a:hover {
+  background-color: gray; /*Efeito quando passa o mouse em cima do menu*/
+}
+
+main {
+  width: 90%; /*ocupar 90% da tela*/
+  background-color: white; /*fundo branco do main*/
+  margin: auto; /*Deixar centralizado*/
+  margin-top: 10px; /*Dá uma descolada do menu*/
+  padding: 10px; /*Da um espaço*/
+  border-radius: 10px; /*Arredeonda a borda*/
+}
+
+article > h2{
+    padding-bottom: 20px;
+
+}
+
+article > p {
+  text-align: justify; /*Ficar justificado*/
+  margin-bottom: 20px; /*Margem em baixo*/
+  text-indent: 20px; /*Indentação*/
+}

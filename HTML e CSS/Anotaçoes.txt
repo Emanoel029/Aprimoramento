@@ -25,7 +25,7 @@ seleciona o q vc quer envelopar segura ctrl+ shit + p) e escolhe a opção
 					6:52
 https://www.youtube.com/watch?v=OKqpZ6zbZwQ&list=PL7iAT8C5wumpQWB8AFW7CwK2nlzh8ZdP9   uninstall repair
 5432								8:13
-				https://www.youtube.com/watch?v=S8YXMqDsbhA&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT&index=35
+				https://www.youtube.com/watch?v=Dd6Z3gkud18&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT&index=38
 https://www.qr-code-generator.com
 
  rede social do github
@@ -35,6 +35,9 @@ https://github.com/explore
 https://www.youtube.com/watch?v=z30JMe5Cufs&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT&index=16
 
 https://emanoel029.github.io//projeto-social/index.html
+
+https://emanoel029.github.io/projeto-media-query/media-query/mq004/index.html
+https://emanoel029.github.io/media-query/
 
 https://emanoel029.github.io/projeto-android/
 https://emanoel029.github.io/projeto-cordel/
