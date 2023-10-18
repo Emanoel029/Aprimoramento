@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*Todas as demais mídias
+
+Typical device breakpoits
+Pequenas telas: 360 x 720
+Celular: 360 x 720
+Tablets: 768px x 1024px
+Desktop: 1024 x 1366px
+Grandes telas: 1200px
+
+*/
+
+@media screen and (min-width: 768px) {
+  i#hamburg {
+    display: none; /*Telas maiores q 768px n aparece hamburg*/
+  }
+
+  menu {
+    display: block; /*Quando a tela for maior q 768px o menu volta sem o hamburg*/
+  }
+
+  menu > ul > li {
+    display: inline-block; /*As opões de menu um do lado do outro*/
+  }
+
+  main {
+    width: 768px; /*A tela passou de 768px o conteúdo do main fica nesse tamanho*/
+  }
+}

@@ -10,8 +10,10 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="estilos/media-query.css" />
   </head>
-  <body>
+  <!--Criando a função dentro do body-->
+  <body onresize="mudouTamanho()">
     <header>
       <h1>Site estudos menu</h1>
       <!--Para colocar o icone do menu-->
@@ -61,6 +63,15 @@
     </main>
 
     <script>
+      function mudouTamanho() {
+        //Se a tela for maior ou igual a 768px
+        if (window.innerWidth >= 768) {
+          itens.style.display = "block";
+        } else {
+          itens.style.display = "none";
+        }
+      }
+
       //quando clicar no menu abre os itens itens.style.display = "block";
       function clickmenu() {
         //se menu tiver aberto(block) clico ele esconde(none)
